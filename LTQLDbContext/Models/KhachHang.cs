@@ -6,10 +6,11 @@ using System.Web;
 
 namespace LTQLDbContext.Models
 {
-    public class Acount
+    public class KhachHang
     {
         [Key]
-        public string Username { get; set; }
-        public string Password { get; set; }
+        public string MaKhachHang { get; set; }
+        public string TenKhachHang { get; set; }
+     
     }
 }
