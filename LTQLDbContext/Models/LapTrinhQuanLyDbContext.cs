@@ -6,9 +6,9 @@ using System.Web;
 
 namespace LTQLDbContext.Models
 {
-    public partial class LTQLDbContext : DbContext
+    public partial class LapTrinhQuanLyDbContext : DbContext
     {
-        public LTQLDbContext() : base("name = LTQLDbContext")
+        public LapTrinhQuanLyDbContext() : base("name = LapTrinhQuanLyDbContext")
         {
 
         }
