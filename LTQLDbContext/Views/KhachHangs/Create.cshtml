@@ -19,7 +19,7 @@
         <div class="form-group">
             @Html.LabelFor(model => model.MaKhachHang, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.EditorFor(model => model.MaKhachHang, new { htmlAttributes = new { @class = "form-control" } })
+                <input name="MaKhachHang" value="@ViewBag.MaKhachHang" class="form-control" type="hidden"/>
                 @Html.ValidationMessageFor(model => model.MaKhachHang, "", new { @class = "text-danger" })
             </div>
         </div>
