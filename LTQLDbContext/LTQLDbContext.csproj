@@ -145,10 +145,15 @@
     <Compile Include="Migrations\202109210407544_KhachHang.designer.cs">
       <DependentUpon>202109210407544_KhachHang.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202110260016339_Persion_talble.cs" />
+    <Compile Include="Migrations\202110260016339_Persion_talble.Designer.cs">
+      <DependentUpon>202110260016339_Persion_talble.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Account.cs" />
     <Compile Include="Models\KhachHang.cs" />
     <Compile Include="Models\LapTrinhQuanLyDbContext.cs" />
+    <Compile Include="Models\Persion.cs" />
     <Compile Include="Models\Process\StringProcess.cs" />
     <Compile Include="Models\Student.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -226,6 +231,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202109210407544_KhachHang.resx">
       <DependentUpon>202109210407544_KhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202110260016339_Persion_talble.resx">
+      <DependentUpon>202110260016339_Persion_talble.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
